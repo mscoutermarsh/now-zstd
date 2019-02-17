@@ -1,3 +1,6 @@
+const decompressSync = require('node-zstd').decompressSync;
+
 module.exports = (req, res) => {
-  res.end(`Hello from Node.js on Now 2.0!`);
+  var output = decompressSync("some zstd compressed string")
+  res.end(output);
 };
