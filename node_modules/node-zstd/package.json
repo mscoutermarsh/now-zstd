@@ -1,0 +1,32 @@
+{
+  "name": "node-zstd",
+  "version": "2.0.1",
+  "description": "Zstd wrapper for Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwb-ict/node-zstd.git"
+  },
+  "keywords": [
+    "zstd",
+    "compression",
+    "decompression"
+  ],
+  "author": "zwb-ict",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zwb-ict/node-zstd/issues"
+  },
+  "homepage": "https://github.com/zwb-ict/node-zstd#readme",
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "nan": "^2.4.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0"
+  }
+}
